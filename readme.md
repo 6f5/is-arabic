@@ -4,7 +4,7 @@ Check if a string is Arabic.
 
 # What is this library for?
 
-This library is created to help Arab and non Arab programmers to check if a string/text is Arabic or includes a certain number of Arabic characters. Use the count option if you want to check a includes a number of Arabic characters. See example below.
+This library is created to help Arab and non Arab programmers to check if a string/text is Arabic or includes a certain number of Arabic characters. See example below.
 
 # Characters that are considered Arabic
 
@@ -30,6 +30,14 @@ npm test
 | Option |         Description          | Default Value |   Type |
 | :----- | :--------------------------: | ------------: | -----: |
 | count  | The number of chars to match |          null | Number |
+
+## Defualt Options
+
+```js
+{
+  count: null;
+}
+```
 
 ## Example
 
