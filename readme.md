@@ -42,21 +42,21 @@ npm test
 ## Example
 
 ```js
-const isArabic = require("is-arabic);
+const isArabic = require("is-arabic");
 const text = "السلام عليكم";
 
 // If you don't pass any options, it will check all characters.
 // and if all characters are not Arabic, it will return false
 if (isArabic(text)) {
-    // Do something
+  // Do something
 } else {
-    // Do something else
+  // Do something else
 }
 
-// To match certain number of characters instead of all
+// To check if string includes certain number of characters instead of all
 // use the count option
 const options = {
-    count: 4
+  count: 4,
 };
 
 const text2 = "اليوم Today";
